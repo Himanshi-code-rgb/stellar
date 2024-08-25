@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Platform</title>
+    <link rel="stylesheet" href="style4.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" integrity="sha512-x2RcT78tt4yOn7YPDPurEr7ELtz5UVPvO+APYbRiPyHEhTg7QvRjRkmZgU9hL6l2OcoiYMG0Bbu6kTp6OWr0g==" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Assignment Platform</h1>
+    </header>
+
+    <main>
+        <section id="assignment-list">
+            <h2>Available Assignments</h2>
+            <ul id="assignments">
+                <!-- List of assignments will be dynamically added here -->
+            </ul>
+        </section>
+
+        <section id="assignment-detail" style="display: none;">
+            <h2>Assignment Details</h2>
+            <div id="assignment-info">
+                <!-- Assignment details will be dynamically added here -->
+            </div>
+            <div id="code-editor"></div>
+            <button id="submit-code">Submit Code</button>
+            <p id="feedback"></p>
+            <button id="back-button">Back to Assignments</button>
+        </section>
+    </main>
+
+    <script src="script4.js"></script>
+</body>
+</html>
